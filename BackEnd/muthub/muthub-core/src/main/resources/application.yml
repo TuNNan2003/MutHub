@@ -1,0 +1,11 @@
+server:
+  port: 13001
+
+spring:
+  cloud:
+    zookeeper:
+      connect-string: localhost:2181
+      discovery:
+        enabled: true
+  application:
+    name: muthub-core
