@@ -16,7 +16,7 @@
 		<maven.compiler.source>11</maven.compiler.source>
 		<maven.compiler.target>11</maven.compiler.target>
 		<spring-cloud.version>2021.0.0</spring-cloud.version>
-		<spring-boot.version>2.7.0</spring-boot.version>
+		<spring-boot.version>2.6.0</spring-boot.version>
 		<fastjson.version>1.2.76</fastjson.version>
 		<powermock.version>2.0.9</powermock.version>
 	</properties>
@@ -36,6 +36,16 @@
 				<version>${spring-boot.version}</version>
 				<type>pom</type>
 				<scope>import</scope>
+				<exclusions>
+					<exclusion> 
+						<groupId>org.slf4j</groupId>
+						<artifactId>slf4j-log4j12</artifactId>
+					</exclusion>
+					<exclusion> 
+						<groupId>log4j</groupId>
+						<artifactId>log4j</artifactId>
+					</exclusion>
+				</exclusions> 
 			</dependency>
 			<dependency>
 				<groupId>org.powermock</groupId>

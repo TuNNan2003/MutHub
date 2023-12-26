@@ -1,6 +1,12 @@
 server:
   port: 13001
 
+logging:
+  level:
+    root: info
+  file:
+    name: ./log/muthub-core.log
+
 spring:
   cloud:
     zookeeper:
