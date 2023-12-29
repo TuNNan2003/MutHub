@@ -84,18 +84,6 @@
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
 				<version>${spring-boot.version}</version>
-				<configuration>
-				  <compilerArguments>
-						<source>11</source>
-						<target>11</target>
-					</compilerArguments>
-					<testCompilerArguments>
-						<arg>-source</arg>
-						<arg>11</arg>
-						<arg>-target</arg>
-						<arg>11</arg>
-          </testCompilerArguments>
-        </configuration>
 			</plugin>
 		</plugins>
 	</build>
