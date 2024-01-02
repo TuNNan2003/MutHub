@@ -63,6 +63,9 @@ export default {
   components: {
     HeadBar,
     AboutUs
+  },
+  created() {
+    document.title = this.$route.meta.title || 'MutHub';
   }
 };
 </script>

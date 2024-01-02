@@ -1,6 +1,6 @@
 <template>
     <nav class="navbar">
-        <div class="logo"><img src="../../public/icon.png" alt="Logo" style="width: 40px; height: 40px;"> Muthub</div>
+        <div class="logo"><img src="../../public/icon.png" alt="Logo" style="width: 40px; height: 40px;"> MutHub</div>
         <div class="buttons">
             <button class="primary-button">Button 1</button>
             <button class="secondary-button">Button 2</button>
